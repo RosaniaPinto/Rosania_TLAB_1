@@ -17,7 +17,7 @@ def average(data: list) -> float:
         return []
     
     average = total / count
-    return average
+    return round(average,2)
 
 
 def maximum(data: list) -> float:
